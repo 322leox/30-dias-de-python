@@ -31,10 +31,19 @@ print(type(Person_info))
 print(len(FirstName))
 print(len(LastName))
 
-num_one= '5'
-num_two= '4'
-num_theer= (num_one)+(num_two)
-print(num_theer)
-print(5+4)
+num_one= 5
+num_two= 4
 
+total= num_one + num_two
+diff= num_two - num_one
+product= num_two * num_one
+division= num_one / num_two
+remainder= num_two % num_one
+exp= num_one ** num_two
+floor_division= num_one // num_two
 
+area_of_circle= 30**2 * 3,1416
+print(area_of_circle)
+
+circum_of_cirlce= 2 * 3,1416 * 30
+print(circum_of_cirlce)
