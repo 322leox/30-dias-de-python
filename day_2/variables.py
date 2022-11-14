@@ -47,3 +47,12 @@ print(area_of_circle)
 
 circum_of_cirlce= 2 * 3,1416 * 30
 print(circum_of_cirlce)
+
+FirstName = input('Cual es tu nombre? ')
+LastName= input('Cual es tu apellido? ')
+Country= input('Donde vives? ')
+Age= input('Cuantos años tienes? ')
+
+name= FirstName, LastName, Country, Age
+print(name)
+
