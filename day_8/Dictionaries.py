@@ -9,3 +9,10 @@ Alumno ={'Nombre': 'name', 'Apellido': 'lastname', 'Sexo':'genero', 'Edad': 'añ
 print(len(Alumno))
 print(Alumno['Habilidad'])
 Alumno['Habilidad'] = ['Interes', 'Conocimiento', 'Arte', 'Imaginacion']
+keys = Alumno.keys()
+print(keys)
+values = Alumno.values()
+print(values)
+print(Alumno.items())
+print(Alumno.clear())
+del Alumno
